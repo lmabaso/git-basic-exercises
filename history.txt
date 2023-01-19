@@ -1,0 +1,547 @@
+    1  clear
+    2  chsh -s $(which zsh)
+    3  cd ~/.oh-my-zsh/themes/
+    4  ls
+    5  vi ~/.zshrc
+    6  source ~/.zshrc
+    7  clear
+    8  vi ~/.zshrc
+    9  source ~/.zshrc
+   10  vi ~/.zshrc
+   11  cd /home/adduser
+   12  ls
+   13  id
+   14  sudo usermod -l Draco adduser
+   15  git clone
+   16  git clone https://github.com/lmabaso/setup.git
+   17  ssh-keygen -t rsa -b 4096 -C "lmabaso@student.wethinkcode.co.za"
+   18  cat ~/.ssh/id_rsa.pub
+   19  ssh-add ~/.ssh/id_rsa
+   20  eval "$(ssh-agent -s)"
+   21  ps aux | grep ssh-agent
+   22  ssh-add ~/.ssh/id_rsa
+   23  echo $SSH_AUTH_SOCK
+   24  eval "$(ssh-agent -s)"
+   25  ssh-keyscan https://github.com/lmabaso >> ~/.ssh/known_hosts
+   26  ssh-keyscan https://github.com >> ~/.ssh/known_hosts
+   27  ssh-keyscan github.com >> ~/.ssh/known_hosts
+   28  cd 
+   29  git remote -v
+   30  pwd
+   31  git clone https://github.com/lmabaso/setup.git
+   32  EXIT
+   33  exit
+   34  git clone https://github.com/lmabaso/setup.git
+   35  cd ~/.ssh
+   36  git clone https://github.com/lmabaso/setup.git
+   37  git clone git@github.com:lmabaso/setup.git
+   38  ls
+   39  cd setup
+   40  
+   41  cd /home/adduser
+   42  ls
+   43  cd setup
+   44  ls
+   45  ./ setup_env.sh
+   46  ./setup_env.sh
+   47  vim
+   48  ls
+   49  cd ..
+   50  ls
+   51  git clone git@github.com:lmabaso/hello-world.git
+   52  ls
+   53  cd hello-world
+   54  ls
+   55  vi Helloworld.txt
+   56  git add .
+   57  git commit -m "First commit"
+   58  git 
+   59  git commit -m "First commit"
+   60  git config --global user.email lmabaso@student.wethinkcode.co.za
+   61  git config --global user.name lmabaso
+   62  git commit -m "First commit"
+   63  git push origin master
+   64  git push 
+   65  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+   66  sudo apt-get install -y nodejs
+   67  node -v
+   68  zplug "zsh-users/zsh-autosuggestions"
+   69  cd 
+   70  ls
+   71  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   72  vi ./
+   73  vi ~/.zshrc
+   74  ls
+   75  cd newfile
+   76  mkdir newfile
+   77  cd newfile
+   78  vi something.js
+   79  ls
+   80  node something.js
+   81  vi something.js
+   82  node something.js
+   83  git clone git@github.com:Umuzi-org/Liberty-Mabaso-778-contentitem-.git
+   84  ls
+   85  mv -r Liberty-Mabaso-778-contentitem- ..
+   86  mv Liberty-Mabaso-778-contentitem- ..
+   87  ls
+   88  cd 
+   89  cd Liberty-Mabaso-778-contentitem-
+   90  ls
+   91  touch important.md
+   92  ls
+   93  vi important.md
+   94  node -v
+   95  cd /home/adduser/
+   96  git clone git@github.com:Umuzi-org/Liberty-Mabaso-429-bootcamp-writing-assignment-markdown.git
+   97  ls
+   98  cd Liberty-Mabaso-429-bootcamp-writing-assignment-markdown
+   99  exit
+  100  ls
+  101  cd Liberty-Mabaso-429-bootcamp-writing-assignment-markdown
+  102  ls
+  103  clear
+  104  cd 
+  105  ls
+  106  mkdir Muzi
+  107  cd Muzi
+  108  ls
+  109  git clone git@github.com:Umuzi-org/Liberty-Mabaso-756-contentitem-javascript.git
+  110  cd Liberty-Mabaso-756-contentitem-javascript
+  111  ls
+  112  node task1.js
+  113  git add .
+  114  git commit -m "First changes"
+  115  git push
+  116  cd ..
+  117  clear
+  118  ls
+  119  git clone git@github.com:Umuzi-org/Liberty-Mabaso-764-contentitem-javascript.git
+  120  ls
+  121  cd Liberty-Mabaso-764-contentitem-javascript
+  122  ls
+  123  cd ../Liberty-Mabaso-756-contentitem-javascript
+  124  vi task1.js
+  125  ls
+  126  node task1.js
+  127  cd ../Liberty-Mabaso-764-contentitem-javascript
+  128  ls
+  129  node task2.js
+  130  node task2.js task2("liberty")
+  131  node task2.js task2("liberty");
+  132  node task2.js << task2("liberty");
+  133  ls
+  134  node task2.js << task2("liberty");
+  135  node task2.js
+  136  git add .
+  137  git status
+  138  git commit -m "Done"
+  139  git stattus
+  140  git status
+  141  git push
+  142  git status
+  143  cd ..
+  144  git clone git@github.com:Umuzi-org/Liberty-Mabaso-760-contentitem-javascript.git
+  145  clear
+  146  ls
+  147  cd Liberty-Mabaso-760-contentitem-javascript
+  148  ls
+  149  node task3.js
+  150  ls
+  151  git add .
+  152  git commit -m "Done"
+  153  git push
+  154  cd ..
+  155  git clone git@github.com:Umuzi-org/Liberty-Mabaso-759-contentitem-javascript.git
+  156  clear
+  157  ls
+  158  cd Liberty-Mabaso-759-contentitem-javascript
+  159  ls
+  160  node task4.js
+  161  ls
+  162  git add .
+  163  git commit -m "Done"
+  164  git push
+  165  cd ..
+  166  git clone git@github.com:Umuzi-org/Liberty-Mabaso-763-contentitem-javascript.git
+  167  cd Liberty-Mabaso-763-contentitem-javascript
+  168  clear
+  169  ls
+  170  touch task5.js
+  171  node task5.js
+  172  git add .
+  173  git commit -m "Done"
+  174  git push
+  175  clear
+  176  cd ..
+  177  ls
+  178  mkdir Task 6
+  179  rm Task
+  180  rm -r Task
+  181  rm -r 6
+  182  mkdir Task\ 6
+  183  cd Task\ 6
+  184  clear
+  185  git clone git@github.com:Umuzi-org/Liberty-Mabaso-758-contentitem-javascript.git
+  186  ls
+  187  cd Liberty-Mabaso-758-contentitem-javascript
+  188  ls
+  189  touch task6.js
+  190  node task6.js
+  191  cd ..
+  192  ls
+  193  nmp install pm2 -g
+  194  npm install pm2 -g
+  195  pm2
+  196  clear
+  197  npm install forever -g
+  198  ls
+  199  cd ..
+  200  ls
+  201  nohup node Task\ 6/Liberty-Mabaso-758-contentitem-javascript/task6.js
+  202  cd  Task\ 6/Liberty-Mabaso-758-contentitem-javascript/task6.js
+  203  cd Task\ 6/Liberty-Mabaso-758-contentitem-javascript
+  204  nohup node task6.js
+  205  nohup node task6.js &
+  206  cd 
+  207  cd Muzi
+  208  ls
+  209  cd Task\ 6/Liberty-Mabaso-758-contentitem-javascript
+  210  ls
+  211  rm nohup.out
+  212  clear
+  213  ls
+  214  git add .
+  215  git commit -m "Done"
+  216  git push
+  217  ls
+  218  cd 
+  219  cd Muzi
+  220  mkdir TASK\ 7
+  221  mv TASK\ 7 Task\ 7
+  222  cd Task\ 
+  223  cd Task\ 7
+  224  clear
+  225  ls
+  226  git clone git@github.com:Umuzi-org/Liberty-Mabaso-765-contentitem-javascript.git
+  227  clear
+  228  ls
+  229  cd Liberty-Mabaso-765-contentitem-javascript
+  230  ls
+  231  touch task7.js
+  232  git add .
+  233  git commit -m "Done"
+  234  git push
+  235  clear
+  236  ls
+  237  cd 
+  238  cd Muzi
+  239  ls
+  240  rm nohup.out
+  241  mkdir Task\ 8
+  242  clear
+  243  cd Task\ 8
+  244  git clone git@github.com:Umuzi-org/Liberty-Mabaso-762-contentitem-javascript.git
+  245  clear
+  246  ls
+  247  cd Liberty-Mabaso-762-contentitem-javascript
+  248  ls
+  249  node task8.js
+  250  clear
+  251  ls
+  252  git add .
+  253  git commit -m "Done"
+  254  git push
+  255  git add .
+  256  git commit -m "Done"
+  257  git push
+  258  cd 
+  259  cd Muzi
+  260  cd Task\ 9
+  261  git clone git@github.com:Umuzi-org/Liberty-Mabaso-761-contentitem-javascript.git
+  262  ls
+  263  cd Liberty-Mabaso-761-contentitem-javascript
+  264  clear
+  265  ls
+  266  cd ../../Task\ 8/Liberty-Mabaso-762-contentitem-javascript
+  267  ls
+  268  git add .
+  269  git commit -m "Done"
+  270  git push
+  271  cd 
+  272  cd Muzi/Task\ 6/Liberty-Mabaso-758-contentitem-javascript
+  273  ls
+  274  git add .
+  275  git commit -m "Done"
+  276  git push
+  277  cd 
+  278  cd Muzi/Task\ 7/Liberty-Mabaso-765-contentitem-javascript
+  279  ls
+  280  git add .
+  281  git commit -m "Done"
+  282  git push
+  283  cd 
+  284  cd Muzi/Task\ 9/Liberty-Mabaso-761-contentitem-javascript
+  285  ls
+  286  node task9.js
+  287  clear
+  288  node task9.js
+  289  clear
+  290  node task9.js
+  291  git add .
+  292  git commit -m "Done"
+  293  git push
+  294  ls
+  295  cd 
+  296  cd Muzi
+  297  mkdr Task\ 10
+  298  mkdir Task\ 10
+  299  ls
+  300  cd Task\ 10
+  301  git clone git@github.com:Umuzi-org/Liberty-Mabaso-754-contentitem-javascript.git
+  302  ls
+  303  cd Liberty-Mabaso-754-contentitem-javascript
+  304  ls
+  305  touch task10.js
+  306  node task10.js
+  307  touch task10.js
+  308  ls
+  309  node task10.js
+  310  cd Liberty-Mabaso-761-contentitem-javascript
+  311  node task10.js
+  312  cd ../../Task\ 10/Liberty-Mabaso-754-contentitem-javascript
+  313  ls
+  314  node task10.js
+  315  ls
+  316  cd Task\ 10
+  317  cd Liberty-Mabaso-754-contentitem-javascript
+  318  ls
+  319  node task10.js
+  320  git add .
+  321  git commit -m "Done"
+  322  git push
+  323  clear
+  324  ls -h
+  325  ls --h
+  326  ls -help
+  327  ls --help
+  328  ls /
+  329  pwd --help
+  330  pwd -h
+  331  pwd
+  332  mkdir
+  333  man mkdir
+  334  man man
+  335  cd 
+  336  cd Muzi
+  337  cd 
+  338  pwd
+  339  cd Muzi/Task\ 10/Liberty-Mabaso-754-contentitem-javascript
+  340  ls
+  341  node task10.js
+  342  ls
+  343  exit
+  344  quit
+  345  man zsh
+  346  zsh -q
+  347  sudo apt-get update
+  348  sudo apt-get upgrade
+  349  ls
+  350  mmkdir How\ Repo\ projects\ work
+  351  mkdir How\ Repo\ projects\ work
+  352  cdc How\ Repo\ projects\ work
+  353  CLEAR
+  354  cd How\ Repo\ projects\ work
+  355  ls
+  356  git clone git@github.com:Umuzi-org/Liberty-Mabaso-606-tilde-project-tutorial-how-repo-projects-work-.git
+  357  ls
+  358  cd Liberty-Mabaso-606-tilde-project-tutorial-how-repo-projects-work-
+  359  ls
+  360  touch important.md
+  361  ls
+  362  cd How\ Repo\ projects\ work
+  363  cd Liberty-Mabaso-606-tilde-project-tutorial-how-repo-projects-work-
+  364  git checkout master
+  365  ls
+  366  git checkout .
+  367  git merge .
+  368  git merge main
+  369  ls
+  370  mkdir git-basic-exercises
+  371  cd git-basic-exercises
+  372  ls -a
+  373  ls -la
+  374  git init
+  375  vi ~/.zshrc
+  376  ls -la
+  377  git status
+  378  touch README.md
+  379  ls -la
+  380  git status
+  381  git log
+  382  git add
+  383  git add .
+  384  git status
+  385  git log
+  386  git reset .
+  387  git status
+  388  git add .
+  389  git status
+  390  git commit -m "initial commit"
+  391  git log
+  392  cat README.md
+  393  vi README.md
+  394  cat README.md
+  395  vi README.md
+  396  cat README.md
+  397  git status
+  398  git commit -m "second commit"
+  399  git add .
+  400  git commit -m "second commit"
+  401  vi README.md
+  402  cat README.md
+  403  git status
+  404  git add .
+  405  git commit -m "third commit"
+  406  git status
+  407  git log
+  408  git checkout 7e47c6385c7b86fce7156e9d0a87f7e3c1259fbb
+  409  cat README.md
+  410  git checkout main
+  411  git checkout master
+  412  cat README.md
+  413  git branch
+  414  git branch .
+  415  git branch.
+  416  git chechout -b "milkshake-flavours"
+  417  git checkout -b "milkshake-flavours"
+  418  git brance
+  419  git branch
+  420  vi milkshakes.md
+  421  git status
+  422  git add milkshakes.md
+  423  git statut
+  424  git status
+  425  git commit -m "added initial flavours"
+  426  git log
+  427  git checkout master
+  428  ls
+  429  git checkout milkshake-flavours
+  430  ls
+  431  git checkout master
+  432  git checkout -b "history"
+  433  git log
+  434  git checkout milkshake-flavours
+  435  git log
+  436  vi README.md
+  437  vi milkshakes.md
+  438  vi README.md
+  439  git add .
+  440  git commit -m "random readme changes"
+  441  git log
+  442  git checkout history
+  443  cat README.md
+  444  git log
+  445  rm README.md
+  446  echo "booya" > README.md
+  447  cat README.md
+  448  ls
+  449  git add .
+  450  git commit -m "rewrote readme"
+  451  git log
+  452  git checkout master
+  453  git log
+  454  git checkout main\nls
+  455  git checkout master\nls
+  456  git log
+  457  git checkout milkshake-flavours\nls
+  458  git log
+  459  git checkout history\nls
+  460  git log
+  461  git checkout master
+  462  git merge milkshake-flavours
+  463  ls
+  464  git log
+  465  git branch
+  466  git merge history
+  467  git log
+  468  git merge history
+  469  git checkout master
+  470  git status
+  471  vi README.md
+  472  vi milkshakes.md
+  473  ls 
+  474  git merge history
+  475  git add README.md
+  476  git commit
+  477  git update-ref -d MERGE_HEAD
+  478  git log
+  479  git checkout history
+  480  git log
+  481  git checkout milkshake-flavours
+  482  git log
+  483  git checkout master
+  484  git checkout history
+  485  git merge master
+  486  git remote add origin git@github.com:lmabaso/git-basic-exercises.git\ngit branch -M main\ngit push -u origin main
+  487  git checkout milkshake-flavours
+  488  git checkout main
+  489  cd ..
+  490  ls
+  491  rm -r git-basic-exercises
+  492  yls
+  493  ls
+  494  clear
+  495  ls
+  496  mkdir git-basic-exercises
+  497  cd git-basic-exercises
+  498  la -a
+  499  git init
+  500  ls -a
+  501  git status
+  502  touch README.md
+  503  ls -a
+  504  git status
+  505  git log
+  506  git add README.md
+  507  git status
+  508  git reset README.md
+  509  git status
+  510  git commit -m "initial commit"
+  511  git add README.md
+  512  git status
+  513  git commit -m "initial commit"
+  514  git log
+  515  vi README.md
+  516  cat README.md
+  517  git status
+  518  git commit -m "second commit"
+  519  git add README.md
+  520  git commit -m "second commit"
+  521  vi README.md
+  522  git add README.md
+  523  git commit -m "third commit"
+  524  git log
+  525  git branch
+  526  git log
+  527  git checkout 74cc2815ec5de006aed24f5b533d253a36aa27f9
+  528  git log
+  529  git checkout c5051eb28b5e0823d0c0b3b787bf2dfc2bdb0cd2
+  530  git log
+  531  cat README.md
+  532  git checkout master
+  533  cat README.md
+  534  git branch
+  535  git checkout -b milkshake-flavours
+  536  git branch
+  537  git checkout milkshake-flavours
+  538  vi milkshakes.md
+  539  cat milkshakes.md
+  540  git status
+  541  git add milkshakes.md
+  542  git commit -m "added initial flavours"
+  543  git log
+  544  git checkout master
+  545  git checkout -b history
+  546  git log
+  547  git branch
